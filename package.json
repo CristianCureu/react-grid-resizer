@@ -6,9 +6,9 @@
   "description": "React hook and context for column resizing.",
   "main": "./dist/column-resizer-lib.cjs.js",
   "module": "./dist/column-resizer-lib.es.js",
-  "types": "./dist/index.d.ts",
   "exports": {
     ".": {
+      "types": "./dist/index.d.ts",
       "import": "./dist/column-resizer-lib.es.js",
       "require": "./dist/column-resizer-lib.cjs.js"
     }
@@ -18,7 +18,7 @@
   ],
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "vite build",
     "preview": "vite preview",
     "test": "vitest"
   },

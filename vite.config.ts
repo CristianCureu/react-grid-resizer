@@ -5,7 +5,10 @@ import { configDefaults } from "vitest/config";
 
 
 export default defineConfig({
-  plugins: [dts()],
+  plugins: [dts({
+    rollupTypes: true,
+    tsconfigPath: "./tsconfig.app.json",
+  })],
   resolve: {
     alias: {
       '@hooks': path.resolve(__dirname, 'src/hooks'),
