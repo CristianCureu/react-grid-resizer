@@ -1,0 +1,51 @@
+{
+  "name": "react-grid-resizer",
+  "private": false,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "React hook and context for column resizing.",
+  "main": "./dist/column-resizer-lib.cjs.js",
+  "module": "./dist/column-resizer-lib.es.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/column-resizer-lib.es.js",
+      "require": "./dist/column-resizer-lib.cjs.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "test": "vitest"
+  },
+  "peerDependencies": {
+    "react": ">=17.0.0"
+  },
+  "keywords": [
+    "react",
+    "hook",
+    "column",
+    "resizer",
+    "table",
+    "grid"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CristianCureu/react-grid-resizer.git"
+  },
+  "author": "Cristian Cureu",
+  "license": "MIT",
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.3.0",
+    "@types/node": "^22.15.30",
+    "@types/react": "^19.1.6",
+    "jsdom": "^26.1.0",
+    "vite-plugin-dts": "^4.5.4",
+    "vitest": "^3.2.4"
+  }
+}
