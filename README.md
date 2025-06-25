@@ -2,7 +2,7 @@
 
 A lightweight React hook and context provider for implementing **resizable columns** in any table or grid layout.
 
-## ✨ Features
+## Features
 
 - Easy-to-use hook: `useColumnResizer`
 - Centralized config with context: `ColumnConfigProvider`
@@ -10,7 +10,7 @@ A lightweight React hook and context provider for implementing **resizable colum
 - Clamp resizing between min/max widths
 - Resize preview and visual feedback support
 
-## 📦 Installation
+## Installation
 
 ```bash
 npm install react-grid-resizer
@@ -20,7 +20,7 @@ npm install react-grid-resizer
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Wrap your app in the provider
 
@@ -102,7 +102,7 @@ function MyTable() {
 
 ---
 
-## 🧠 Types
+## Types
 
 ```ts
 type ConfigItem = {
@@ -116,7 +116,7 @@ type ColumnConfig<K extends string = string> = Record<K, ConfigItem[]>;
 
 ---
 
-## 💡 Tip
+## Tip
 
 Add this to your global CSS for smooth UX while resizing:
 
